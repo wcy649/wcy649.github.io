@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<head>
+    <title>凌晨官方在线</title>
+    <link href="./source/css/layui.css" rel="stylesheet">
+    <link rel="shortcut icon" href="./favicon.ico">
+</head>
+<body>
+    <style>
+        .title{
+            font-size: 64px;
+            color: rgb(0, 102, 255);
+        }
+        .copyright{
+            font-size: 8px;
+            color:darkgray;
+        }
+        .checkMan{
+            width:300px;
+        }
+    </style>
+    <ul class="layui-nav layui-bg-blue" lay-bar="disabled">
+        <li class="layui-nav-item"><a href="./index.html"><img src="./icon.jpg" width=32 height=32></a></li>
+        <li class="layui-nav-item">
+          <a href="javascript:;">下载资源</a>
+          <dl class="layui-nav-child">
+            <dd><a href="./download/sende.html">森德杀毒</a></dd>
+            <!--
+            <dd><a href=""></a></dd>
+            <dd><a href=""></a></dd>
+            !-->
+          </dl>
+        </li>
+        <li class="layui-nav-item"><a href="./download/user.html">用户协议</a></li>
+      </ul>
+      <div class="home">
+        <br/>
+        <br>
+        <br>
+        <br>
+        <h1 align="center" class="title">凌晨官方</h1>
+        <br>
+        <h2 align="center" class="introduce">欢迎您使用我们的软件</h2>
+      </div>
+      <br>
+      <br>
+    <div class="layui-container">  
+        <div class="layui-row layui-col-space30 ws-index-idea">
+          <div class="layui-col-md4">
+            <div>
+              <fieldset class="layui-elem-field layui-field-title">
+                <legend>简而易飞</legend>
+                <br>
+                <p>我们致力于让用户体验更好，我们一直在精益求精</p>
+              </fieldset>
+            </div>
+          </div>
+          <div class="layui-col-md4">
+            <div>
+              <fieldset class="layui-elem-field layui-field-title">
+                <legend>你好，世界</legend>
+                <br>
+                <p>"Hello,world."，这句话，在十几年前，是一个奇迹。也是一个开端。</p>
+              </fieldset>
+            </div>
+          </div>
+          <div class="layui-col-md4">
+            <div>
+              <fieldset class="layui-elem-field layui-field-title">
+                <legend>用努力，来换取高质量。</legend>
+                <br>
+                <p>我们一直在努力，用心，用爱，去创造每一个美好的家园。</p>
+              </fieldset>
+            </div>
+          </div>
+          <p align="center">
+            <div class="checkMan">
+              <p align="center" style="font-size: 9px;">成员QQ号检测</p>
+              <br>
+              <input id="checker" name="checker" style="font-size: 10px;width:300px;" class="layui-input">
+              <br>
+              <button id="clickToCheck" class="layui-bg-blue layui-btn layui-btn-fluid">立即检测</button>
+            </div>
+            <br>
+          </p>
+        </div>
+      </div>
+      <br>
+      <br>
+      <div class="copyright">
+            <p align="center">&copy; Copyright 2023 凌晨团队</p>
+            <p align="center">本网站编写者为DKoTechnology</p>
+      </div>
+      <script src="./checkman.js"></script>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/layui/2.8.15/layui.js"></script>
