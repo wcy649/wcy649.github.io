@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<head>
+    <title>凌晨官方在线 - 用户协议</title>
+    <link href="../source/css/layui.css" rel="stylesheet">
+    <link rel="shortcut icon" href="../favicon.ico">
+</head>
+<body>
+    <style>
+        .title{
+            font-size: 64px;
+            color: rgb(0, 102, 255);
+        }
+        .copyright{
+            font-size: 8px;
+            color:darkgray;
+        }
+    </style>
+    <ul class="layui-nav layui-bg-blue" lay-bar="disabled">
+        <li class="layui-nav-item"><a href="../index.html"><img src="../icon.jpg" width=32 height=32></a></li>
+        <li class="layui-nav-item">
+          <a href="javascript:;">下载资源</a>
+          <dl class="layui-nav-child">
+            <dd><a href="./sende.html">森德杀毒</a></dd>
+            <!--
+            <dd><a href=""></a></dd>
+            <dd><a href=""></a></dd>
+            !-->
+          </dl>
+        </li>
+        <li class="layui-nav-item"><a href="./user.html">用户协议</a></li>
+      </ul>
+    <br>
+    <h1 align="center">用户协议</h1>
+    <br>
+    <p align="center">1.使用者不可使用任何方法对本工作室任何程序进行拆包、解包、反编译，作者有权追究。</p>
+    <br>
+    <p align="center">2.网站由DKoTechnology全职写入，github搜windows23.github.io，网站lc</p>
+    <br>
+    <p align="center">3.官网属于OpenSource版，而程序不开源。</p>
+    <br>
+    <p align="center">4.使用软件时如果出现突然蓝屏、卡顿、有BUG，请向2733392694@qq.com进行反馈或提出</p>
+    <br>
+    <p align="center">5.使用软件时如果出现电脑死机、报废，请向2733392694@qq.com进行提出。</p>
+    <br>
+    <p align="center">官方邮箱:2733392694@qq.com or 2507979441@qq.com  官方Gitee: 定君科技</p>
+    <br>
+    <p align="center">凌晨团队感谢您的支持！</p>
+    <br>
+    <p align="center"><button id="imaccept" class="layui-btn layui-btn-fluid layui-bg-blue" style="width: 400px;">我同意</button></p>
+    <br>
+    <p align="center"><button id="imnoaccept" class="layui-btn layui-btn-fluid layui-bg-red" style="width: 400px;">我不同意</button></p>
+    <br>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/layui/2.8.15/layui.js"></script>
+    <script>
+        var accept = document.getElementById("imaccept");
+        var noaccept = document.getElementById("imnoaccept");
+
+        accept.addEventListener('click',function(){
+            window.location.href="./app/sende_setup_1.6.exe";
+            window.location.href="./thank-download.html";
+        })
+
+        noaccept.addEventListener('click',function(){
+            window.location.href="about:blank";
+        })
+    </script>
+</body>
